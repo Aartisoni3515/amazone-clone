@@ -7,8 +7,11 @@ import getSymbolFromCurrency from 'currency-symbol-map';
 
 
 
+
 function Product(props) {
     return (
+        <>
+     
         <div className="product">
             <div className="product__image">
                 <img src={props.definition.image} height="280px" />
@@ -24,6 +27,8 @@ function Product(props) {
             { getSymbolFromCurrency('INR')}{props.definition.price}
             </div>
         </div>
+
+        </>
     );
 }
 

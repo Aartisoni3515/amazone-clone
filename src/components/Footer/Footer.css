@@ -1,0 +1,115 @@
+.footer-container {
+    height: 200px;
+    width: 100%;
+  }
+  .break hr {
+    width: 100%;
+  }
+  .footer-content {
+    background-color: #232f3e;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .footer-content h3 {
+    justify-content: center;
+    text-align: center;
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+    font-size: small;
+  }
+  .list-items li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+  }
+  .list-items span {
+    font-size: larger;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-foot {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  
+  .footer-des img {
+    width: 76px;
+    height: 23px;
+    /* margin-left: 40%; */
+    margin-top: 30px;
+  }
+  .footer-con h4 {
+    color: white;
+    margin-left: 45px;
+    border: 0.5px solid white;
+    width: 76px;
+    height: 24px;
+  }
+  .footer-list {
+    /* width: 70%; */
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 0 18px;
+    margin-left: 209px;
+    margin-right: 250px;
+    font-size: 11px;
+  }
+  .footer-list li {
+    margin-left: 30px;
+  }
+  
+  .footer-list1 {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 45%;
+    justify-content: space-between;
+  }
+  .footer-end {
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+  }
+  .footer-end ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .list-items4 {
+    color: white;
+    margin-top: 20px;
+  }
+  .footer-end ul li{
+  
+    margin-top: 30px;
+    font-size: 12px;
+  }
+  .para{
+   color: white;
+   font-size: 13px;
+   justify-content: center;
+   text-align: center;
+   margin-top: 50px;
+  
+  
+  }

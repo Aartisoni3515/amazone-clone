@@ -6,6 +6,7 @@ import DisplayContent from "./components/DisplayContent/DisplayContent";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavigationBar/Navbar";
 import CartContextProvider from "./components/CartContext";
+import Signup from "./components/SignUp/Signup";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
             <Route path="/Checkout" element={<Checkout />} />
             <Route path="/DisplayContent" element={<DisplayContent />} />
             <Route path="/PlaceOrder/:id" element={<PlaceOrder />} />
+
+            <Route path="/SignUp" element={<Signup />} />
           </Routes>
         </CartContextProvider>
       </Router>

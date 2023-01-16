@@ -83,10 +83,10 @@ function PlaceOrder(props) {
           {
               id: 12344545456543,
               name: "Iphone13",
-              rating: "34565",
-              review: "1000",
+              rating: "3459",
+              review: 2000,
               emi: "2401",
-              delivery: "Wednesday, Aug 18",
+              delivery: "Wednesday, jan 18",
               price: "637357",
               status: "In stock",
               soldby: "Darshita Electronics",
@@ -152,7 +152,7 @@ function PlaceOrder(props) {
 
   return (
       <div>
-           <Grid container >
+           <Grid container key={productDetails.id} >
               <Grid item xs={5} >
                   <img className="placeorder__image" src={productDetails.image}  />
               </Grid>

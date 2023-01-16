@@ -5,7 +5,6 @@
 // import { BsSearch } from "react-icons/bs";
 // import { CartContext } from "../CartContext";
 
-
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../CartContext";
@@ -23,10 +22,13 @@ class Navbar extends Component {
 
     return (
       <div>
+      
         <div className="navbar__component">
           <Link to="">
             <div className="navbar__logo"></div>
           </Link>
+          <div className="nav-links"></div>
+
           <div className="navbar__locator">
             <div className="navbar__locatorImage"></div>
             <div className="navbar__location"> Bangalore</div>
@@ -49,10 +51,12 @@ class Navbar extends Component {
               <div className="navbar__searchicon" />
             </div>
           </div>
-          <div className="navbar_text navbar__signin">
-            <div style={{ fontSize: "14px" }}>Hello, Sign In</div>
-            <div style={{ fontWeight: "bold" }}>Account & List</div>
-          </div>
+          <Link to="./SignUp">
+            <div className="navbar_text navbar__signin">
+              <div style={{ fontSize: "14px" }}>Hello, Sign In</div>
+              <div style={{ fontWeight: "bold" }}>Account & List</div>
+            </div>
+          </Link>
           <div className="navbar_text navbar__returns">
             <div style={{ fontSize: "14px" }}>Returns</div>
             <div style={{ fontWeight: "bold" }}> & Order</div>
@@ -66,6 +70,9 @@ class Navbar extends Component {
           </Link>
         </div>
         <div className="navbar__footer">
+        {/* <button>
+          <i className="fas fa-align-justify"></i>
+        </button> */}
           <div className="navbar__footer_text">Best Seller</div>
           <div className="navbar__footer_text">Mobile</div>
           <div className="navbar__footer_text">Amazon Pay</div>
@@ -77,6 +84,7 @@ class Navbar extends Component {
           <div className="navbar__footer_text">Computers</div>
           <div className="navbar__footer_text">Home & Kitchen</div>
         </div>
+      
       </div>
     );
   }

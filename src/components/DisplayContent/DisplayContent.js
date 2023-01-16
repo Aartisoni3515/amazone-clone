@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
 import LeftSidePanel from './LeftSide/LeftSidePanel'
 import RightSidePanel from './RightSide/RightSidePanel'
 
@@ -13,6 +14,8 @@ const DisplayContent = () => {
                 <RightSidePanel />
             </div> 
         </div>
+<Footer/>
+
     </>
   )
 }
