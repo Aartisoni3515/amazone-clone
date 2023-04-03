@@ -27,12 +27,10 @@ const CheckoutItems = (props) => {
           </div>
           <div style={{ marginTop: "20px" }}>
             <div style={{ fontSize: "20px" }} className="textgap">
-              {" "}
-              {/* New Apple iphone 12 (64GB)-Gold{" "} */}
-              {props.defination.name}
+              {/* {props.defination.name} */}
             </div>
             <div style={{ fontWeight: "bold" }} className="textgap">
-           {props.defination.price}
+              {/* {props.defination.price} */}
               70,000{" "}
             </div>
             <div className="textgap">In Stock</div>

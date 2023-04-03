@@ -1,5 +1,5 @@
 import React from 'react';
-import mobile3 from "../../../amazon-image/mobile3.jpg";
+// import mobile3 from "../../../amazon-image/mobile3.jpg";
 import Rating from '@mui/material/Rating';
 // import { useSlotProps } from '@mui/base';
 import getSymbolFromCurrency from 'currency-symbol-map';

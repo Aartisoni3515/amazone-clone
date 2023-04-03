@@ -102,19 +102,19 @@ class MainPage extends Component {
   render() {
     return (
       <div className="mainpage">
-        <div className="img-header">
+        <div  className="img-header">
           <Carousel autoPlay={true}>
             <div>
-              <img src={bigimage1} />
+              <img src={bigimage1} alt="" />
             </div>
             <div>
-              <img src={bigimage2} />
+              <img src={bigimage2} alt="" />
             </div>
             <div>
-              <img src={bigimage3} />
+              <img src={bigimage3} alt="" />
             </div>
             <div>
-              <img src={bigimage4} />
+              <img src={bigimage4} alt="" />
             </div>
           </Carousel>
         </div>
@@ -148,6 +148,7 @@ class MainPage extends Component {
                   <AdvertisementFour />
                   <AdvertisementOne /> */}
         </div>
+        {/* ................................................................................................................................ */}
 
         <div className="main2">
           <h2>
@@ -156,12 +157,18 @@ class MainPage extends Component {
             <span>see all offers</span>
           </h2>
           <div className="images">
-            <img src={sari1} alt="" />
-            <img src={sari2} alt="" />
-            <img src={sari3} alt="" />
-            <img src={sari5} alt="" />
-            <img src={sari6} alt="" />
-            <img src={sari7} alt="" />
+            <div>
+              <img src={sari1} alt="" />
+              <img src={sari2} alt="" />
+            </div>
+            <div>
+              <img src={sari3} alt="" />
+              <img src={sari5} alt="" />
+            </div>
+            <div>
+              <img src={sari6} alt="" />
+              <img src={sari7} alt="" />
+            </div>
             <img src={sari8} alt="" />
           </div>
         </div>

@@ -155,3 +155,19 @@
 
 
 }
+
+@media screen and (max-width: 800px) {
+
+  .img-header{
+    width: 100%;
+  }
+
+  .images {
+    height: auto;
+    width: 100%;
+    display: grid;
+    
+  }
+  
+
+}
